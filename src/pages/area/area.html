@@ -8,14 +8,13 @@
 <ion-content class="card-background-page">
 
   <ion-card>
-      <img src="assets/imgs/tour/{{img}}"/>
+      <img src="assets/imgs/tour/{{note.src}}"/>
       <ion-card-content>
         <ion-card-title>
-          Nine Inch Nails Live
+          {{note.title}}
         </ion-card-title>
         <p>
-          The most popular industrial group ever, and largely
-          responsible for bringing the music to a mass audience.
+          {{note.text}}
         </p>
         <div class="div-next">
             <button ion-button class='btn' color='dark' (click)="next()">
