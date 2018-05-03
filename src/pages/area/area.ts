@@ -14,27 +14,30 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class AreaPage {
 
-  imgs;
+  sources;
   img;
+
   index;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.index = -1;
-    this.imgs = [
-      {
-        'img' : 'https://ionicframework.com/dist/preview-app/www/assets/img/nin-live.png',
-        'msg' : 'oiiiii'
-      },
-      {
-        'img' : 'https://ionicframework.com/dist/preview-app/www/assets/img/nin-live.png',
-        'msg' : 'nego'
-      },
+    
+    this.sources = [
+      'mercado_01.png','mercado_02.png','mercado_03.jpg', 
+      'curso_01.png', 'curso_02.jpg', 'curso_03.jpg', 'curso_04.jpg', 'curso_05.jpg',
+      'estrutura_01.jpg'
     ];
     this.next();
   }
 
   next() {
-    this.img = this.imgs[++this.index];
+    if (this.index < this.sources.length-1) {      
+      ++this.index;
+      this.img = this.sources[this.index];
+    } else {
+      this.navCtrl.pop();
+      this.index = -1;
+    }
   }
 
 }

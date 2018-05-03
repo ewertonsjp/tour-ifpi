@@ -6,11 +6,12 @@ page-home {
         height:16em;
         border-radius:8em;
         background-color:#f03d2c; opacity:none;
+        font-size: 18px;
     }
    
 }
 
 ion-content {
-    background: url(https://s3.amazonaws.com/ionic-io-static/f9TosPICShCMnQvNzk4D_6.jpg) no-repeat center;
-    background-size:cover;
+    background: url(../../assets/imgs/background.jpg) no-repeat center;
+    background-size: cover;
 }

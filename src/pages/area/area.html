@@ -5,27 +5,15 @@
   Ionic pages and navigation.
 -->
 
-<ion-content padding>
+<ion-content class="card-background-page">
+
   <ion-card>
-    <img src="{{img.img}}"/>
-    <ion-grid>
-      <ion-row>
-        <ion-col col-10>
-          <ion-card-content>
-            <ion-card-title>
-              Nine Inch Nails Live
-            </ion-card-title>
-            <p>
-              {{img.msg}}
-            </p>                
-          </ion-card-content>
-        </ion-col>
-        <ion-col col-2>
-          <button ion-button icon-only (click)="next()">
-              <ion-icon name="arrow-dropright-circle"></ion-icon>
-          </button>
-        </ion-col>
-      </ion-row>
-    </ion-grid>   
-  </ion-card>    
+    <img src="assets/imgs/tour/{{img}}"/>
+    <div class="card-title">
+      <button ion-button class='btn-next' color='dark' (click)="next()">
+          <ion-icon name="arrow-dropright-circle"></ion-icon>
+      </button>
+    </div>
+  </ion-card>
+  
 </ion-content>
