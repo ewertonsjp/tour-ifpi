@@ -1,6 +1,6 @@
 {
   "name": "tour",
-  "app_id": "",
+  "app_id": "92708d9b",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
