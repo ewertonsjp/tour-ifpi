@@ -35,18 +35,18 @@ export class AreaPage {
       },
       {
         'src' : 'mercado_03.jpg',
-        'title' : 'Há vagas',
-        'text' : 'Oportunidades....'
+        'title' : 'VOCÊ precisa se atualizar!',
+        'text' : 'Se a tecnologia elimina alguns postos de trabalho, ela também cria novas profissões. Aliás, no mundo das novas profissões, articulador virou palavra-chave. Aqueles que souberem unir diferentes áreas do conhecimento para gerar novos serviços, passam a valer ouro.'
       },
       {
         'src' : 'curso_01.png',
-        'title' : 'No entanto, Falta de profissionais no setor de TI preocupa o mercado',
-        'text' : 'Os cursos de TI estão focados atualmente em tecnologias tradicionais e não dá tempo de um aluno se atualizar sobre um mercado que evolui tão rápido.'
+        'title' : 'Falta de profissionais no setor de TI preocupa o mercado',
+        'text' : 'Uma das razões apontadas é que os cursos de Tecnologia estão focados atualmente em tecnologias tradicionais e não dá tempo de um aluno se atualizar sobre um mercado que evolui tão rápido.'
       },
       {
         'src' : 'curso_02.jpg',
-        'title' : 'É aí que...',
-        'text' : 'Curso de tecnologia focado nas necessidades do mercado.'
+        'title' : '#IFPI',
+        'text' : 'Educação gratuita e de qualidade.'
       },
       {
         'src' : 'curso_03.jpg',
