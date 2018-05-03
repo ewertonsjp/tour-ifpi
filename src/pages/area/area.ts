@@ -40,4 +40,14 @@ export class AreaPage {
     }
   }
 
+  previous() {
+    if (this.index > 0) {      
+      --this.index;
+      this.img = this.sources[this.index];
+    } else {
+      this.navCtrl.pop();
+      this.index = -1;
+    }
+  }
+
 }

@@ -8,12 +8,27 @@
 <ion-content class="card-background-page">
 
   <ion-card>
-    <img src="assets/imgs/tour/{{img}}"/>
-    <div class="card-title">
-      <button ion-button class='btn-next' color='dark' (click)="next()">
-          <ion-icon name="arrow-dropright-circle"></ion-icon>
-      </button>
-    </div>
+      <img src="assets/imgs/tour/{{img}}"/>
+      <ion-card-content>
+        <ion-card-title>
+          Nine Inch Nails Live
+        </ion-card-title>
+        <p>
+          The most popular industrial group ever, and largely
+          responsible for bringing the music to a mass audience.
+        </p>
+        <div class="div-next">
+            <button ion-button class='btn' color='dark' (click)="next()">
+                <ion-icon name="arrow-dropright-circle"></ion-icon>
+            </button>
+        </div>
+        <div class="div-previous">
+            <button ion-button class='btn' color='dark' (click)="previous()">
+                <ion-icon name="arrow-dropleft-circle"></ion-icon>
+            </button>
+        </div>
+      </ion-card-content>    
   </ion-card>
-  
+
 </ion-content>
+

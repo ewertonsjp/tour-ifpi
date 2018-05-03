@@ -1,31 +1,36 @@
 page-area {
     img {
-        height: 75.5em;
+        height: 68.5em;
     }
 
-    .card-background-page {
+    .div-next {
+        position: absolute;
+        top: 45%;
+        left: 92%;
+        font-size: 2.0em;
+        width: 100%;
+        font-weight: bold;
+        color: #fff;
+    }
 
-        ion-card {
-          width: 96.5%;  
-          position: relative;
-          text-align: center;
-        }
-      
-        .card-title {
-          position: absolute;
-          top: 87%;
-          left: 45%;
-          font-size: 2.0em;
-          width: 100%;
-          font-weight: bold;
-          color: #fff;
-        }
-      
-        .btn-next {
-            width: 6em;
-            height:6em;
-            border-radius:3em;
-        }
-      
+    .div-previous {
+        position: absolute;
+        top: 42%;
+        left: 2%;
+        font-size: 2.0em;
+        width: 100%;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .btn {
+        width: 6em;
+        height:6em;
+        border-radius:3em;
+    }
+
+    ion-card {
+        width: 96.5%;  
+        position: relative;
     }
 }
