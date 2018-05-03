@@ -1,8 +1,4 @@
-page-home {
-    ion-content {
-        background: url(https://s3.amazonaws.com/ionic-io-static/f9TosPICShCMnQvNzk4D_6.jpg) no-repeat center;
-        background-size:cover;
-    }
+page-home {    
 
     .btn {
         margin-top:18em;
@@ -12,4 +8,9 @@ page-home {
         background-color:#f03d2c; opacity:none;
     }
    
+}
+
+ion-content {
+    background: url(https://s3.amazonaws.com/ionic-io-static/f9TosPICShCMnQvNzk4D_6.jpg) no-repeat center;
+    background-size:cover;
 }
