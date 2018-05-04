@@ -51,42 +51,32 @@ export class AreaPage {
       {
         'src' : 'curso_03.jpg',
         'title' : 'Tecnologias para criar Sites e Sistemas WEB',
-        'text' : '[...]'
+        'text' : 'Desenvolva sites e sistemas WEB que podem ser aplicados às necessidades da sua região.'
       },
       {
         'src' : 'curso_04.jpg',
         'title' : 'Infraestrutura de TI',
-        'text' : '[...]'
+        'text' : 'Implantação e manutenção de serviços de informática necessários ao bom funcionamento de uma empresa, como backup, gerência de internet e virtualização.'
       },
       {
         'src' : 'curso_05.jpg',
         'title' : 'Tecnologias para criar Aplicativos para Smartphone.',
-        'text' : '[...]'
+        'text' : 'Crie sistemas que rodam em dispositivos móveis e que sempre estão disponíveis aos usuário, em qualquer lugar, a qualquer momento.'
       },
       {
         'src' : 'estrutura_01.jpg',
         'title' : 'Infraestrutura de Qualidade',
-        'text' : 'Laboratórios [...]'
+        'text' : 'O IFPI dispõe de estruturas de alta qualidade, como salas de aulas climatizadas, laboratórios equipados, refeitório e biblioteca.'
       },
       {
         'src' : 'evento_01.png',
         'title' : 'O #IFPI faz eventos',
-        'text' : 'Os alunos participam do planejamento e organização de eventos [...]. Em 2018, a SEMINFO vai para sua 3º Edição. Contamos com VC ;)'
+        'text' : 'Os alunos participam do planejamento e organização de eventos. Em 2018, a SEMINFO - Semana de INFORMÁTICA do Campus PAULISTANA - vai para sua 3º Edição. Contamos com VC ;)'
       },
       {
-        'src' : '',
-        'title' : 'O alunos do #IFPI participam de eventos',
-        'text' : 'Os alunos participam de eventos [congressos, simpósios ...]'
-      },
-      {
-        'src' : '...',
-        'title' : 'O #IFPI proporciona Visitas Técnicas',
-        'text' : '...'
-      },
-      {
-        'src' : '...',
-        'title' : 'No #IFPI os alunos são desafiados a desenvolver o seu melhor!',
-        'text' : 'stigma, manasch, prime...'
+        'src' : 'evento_02.jpg',
+        'title' : 'Participe de Visitas Técnicas',
+        'text' : 'Visite e compreenda como empresas de tecnologia funcionam NA PRÁTICA.'
       },
       {
         'src' : 'desafio_03.jpg',
